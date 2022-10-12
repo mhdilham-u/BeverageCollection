@@ -1,0 +1,45 @@
+.list-container {
+    width: 80%;
+    height: 160vh;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: black; */
+    /* overflow: hidden; */
+}
+.card {
+    width: 300px;
+    height: 450px;
+    background-color: rgb(209, 209, 209);
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 20px auto;
+    
+}
+.card img {
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+}
+.card h4, p, a{
+    margin: 17px 30px;
+    color: black;
+}
+.card a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: whitesmoke;
+}
+.card a:hover {
+    background-color: whitesmoke;
+    color: blue;
+    transition: 0.3s;
+}

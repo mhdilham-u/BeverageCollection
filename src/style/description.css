@@ -1,0 +1,142 @@
+main.desc {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.desc a:hover {
+    background-color: whitesmoke;
+    color: blue;
+    transition: 0.3s;
+}
+/* DESCRIPTION-1 */
+.description-drink-1 {
+    width: 100%;
+    height: 100%;
+    padding: 150px 40px;
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+}
+.description-drink-1 img {
+    width: 500px;
+    height: 500px;
+    margin-left: 180px;
+    border-radius: 10px;
+}
+.description {
+    width: 50%;
+    height: 500px;
+    padding: 150px 40px;
+    background-color: rgb(209, 209, 209);
+    border-radius: 5px;
+}
+.description h1 {
+    margin-left: 28px;
+}
+.description h1, p, a {
+    color: black;
+    margin-bottom: 30px;
+}
+.description a {
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 10px 30px;
+    background-color: blue;
+    color: whitesmoke;
+}
+
+/* DESCRIPTION-2 */
+.description-drink-2 {
+    width: 100%;
+    height: 100%;
+    padding: 150px 40px;
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+}
+.description-drink-2 img {
+    width: 500px;
+    height: 500px;
+    margin-left: 180px;
+    border-radius: 10px;
+}
+
+/* DESCRIPTION-3 */
+.description-drink-3 {
+    width: 100%;
+    height: 100%;
+    padding: 150px 40px;
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+}
+.description-drink-3 img {
+    width: 500px;
+    height: 500px;
+    margin-left: 180px;
+    border-radius: 10px;
+}
+
+/* DESCRIPTION-4 */
+.description-drink-4 {
+    width: 100%;
+    height: 100%;
+    padding: 150px 40px;
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+}
+.description-drink-4 img {
+    width: 500px;
+    height: 500px;
+    margin-left: 180px;
+    border-radius: 10px;
+}
+/* DESCRIPTION-5 */
+.description-drink-5 {
+    width: 100%;
+    height: 100%;
+    padding: 150px 40px;
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+}
+.description-drink-5 img {
+    width: 500px;
+    height: 500px;
+    margin-left: 180px;
+    border-radius: 10px;
+}
+/* DESCRIPTION-6 */
+.description-drink-6 {
+    width: 100%;
+    height: 100%;
+    padding: 150px 40px;
+    margin: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+}
+.description-drink-6 img {
+    width: 500px;
+    height: 500px;
+    margin-left: 180px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .desc img {
+        margin: auto;
+        width: 300px;
+        height: 300px;
+    }
+    .desc {
+        padding: 80px 40px;
+    }
+}

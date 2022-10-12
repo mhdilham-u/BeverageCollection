@@ -1,0 +1,19 @@
+@import "nav.css";
+@import "search.css";
+@import "drinklist.css";
+@import "description.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* main {
+    height: 170vh;
+    overflow-y: hidden;
+} */
